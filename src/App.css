@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Urbanist", serif;
+
+}
+/* ---------------------------------------------------------Footer ----------------------------------------------------------- */
+.bottom-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-footer-div {
+    position: relative;
+    width: 820px;
+    min-height: 38px;
+    background: #000033;
+    clip-path: path("M597.63 38.1172L835 38.1172C789.063 38.1171 773.685 27.3563 759.27 17.2696C746.556 8.37213 734.59 -0.00075531 703.062 -0.00075531L597.63 -0.00075531L237.37 -0.00075531L131.939 -0.00075531C100.41 -0.00075531 88.4445 8.37212 75.7297 17.2695C61.3153 27.3563 45.9376 38.1171 0.000156403 38.1172L237.37 38.1172L597.63 38.1172Z");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: #fff;
+    font-size: calc(clamp(0.625rem, 0.671vw + 0.195rem, 1rem));
+}
+/* -----------------------------------------------------------------------header------------------------------------------ */
+.top-line {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-list {
+    position: relative;
+    width: 840px;
+    z-index: 2;
+    transform: rotate(180deg) scaleY(1.4);
+    min-height: 45px;
+    background: #000623;
+    clip-path: path("M597.63 38.1172L835 38.1172C789.063 38.1171 773.685 27.3563 759.27 17.2696C746.556 8.37213 734.59 -0.00075531 703.062 -0.00075531L597.63 -0.00075531L237.37 -0.00075531L131.939 -0.00075531C100.41 -0.00075531 88.4445 8.37212 75.7297 17.2695C61.3153 27.3563 45.9376 38.1171 0.000156403 38.1172L237.37 38.1172L597.63 38.1172Z");
+}
+.top-line ul {
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+    gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-line ul li  {
+    font-size: calc(clamp(0.875rem, 0.447vw + 0.588rem, 1.125rem));
+    color: #fff;
+
+}
+/* ---------------------------------------------------------call to action button-------------------------------- */
+.collobrate-btn {
+    position: fixed;
+    right: -2.5%;
+    top: 50%;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #00000063;
+    border-radius: 10px;
+}
+.collobrate-btn p {
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    font-weight: 600;
+    margin-right: 10px;
+}
+.collobrate-btn svg {
+    width: calc(clamp(0.875rem, 1.566vw - 0.129rem, 1.75rem));
+    height: calc(clamp(0.875rem, 1.566vw - 0.129rem, 1.75rem));
+}
+/* -------------------------------------------------------------bottom licenses---------------------------------------------------------------------------------------- */
+.bottom-license {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: end;
+}
+.bottom-license ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.bottom-license ul {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    gap: 25px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+h1 span{
+    padding: 5px 10px;
+    /* background-color: #ffffff7e ; */
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px 0px #0000be54;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1400px){
+    .top-line  {
+        transform: scale(0.75);
+    }
+    .navbar-list {
+        min-height: 40px;
+    }
+}
+@media (max-width: 1280px){
+    .navbar-list {
+        min-height: 40px;
+    }
+}
+@media (max-width: 1199px){}
+@media (max-width: 991px){}
+@media (max-width: 767px){}
+@media (max-width: 667px){}
+@media (max-width: 480px){}
+@media (max-width: 360px){}
+
+

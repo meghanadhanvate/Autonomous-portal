@@ -1,0 +1,321 @@
+.AI-profile-generator {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(144deg, rgba(249,253,255,1) 0%, rgba(175,187,239,1) 83%);
+}
+.form-division {
+    width: 50%;
+    border-radius: 34px;
+    margin-bottom: 50px;
+    padding: 2rem 5rem;
+}
+.AI-profile-generator .title{
+    position: relative;
+    z-index: 2;
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.form-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AI-profile-generator .top-right-gradient {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: -17%;
+    right: -18%;
+    border-radius: 50%;
+    background-color: #0091ff30;
+    filter: blur(400px);
+}
+.AI-profile-generator .bottom-left-gradient {
+    width: 800px;
+    height: 800px;
+    background-color: #3300ff2e;
+    position: absolute;
+    bottom: -31%;
+    left: -5%;
+    filter: blur(619px);
+    border-radius: 50%;
+}
+.AI-profile-generator .wizard-step {
+    position: relative;
+    z-index: 2;
+}
+
+.wizard-step .step-number-div {
+   width: calc(clamp(1.875rem, 1.678vw + 0.799rem, 2.813rem));
+  color: #000;
+   height: calc(clamp(1.875rem, 1.678vw + 0.799rem, 2.813rem));
+}
+.wizard-step .active-step {
+    background: linear-gradient(111deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);
+    color: #fff;
+}
+.wizard-step .step-line {
+    width: 80px;
+    height: 6px;
+   border-radius: 50px;
+}
+.top-center-gradient {
+background: linear-gradient(90deg, rgba(0,230,255,1) 0%, rgba(0,102,255,1) 100%);
+position: absolute;
+top: 20%;
+left: 18%;
+width: 70vw;
+filter: blur(100px);
+height: 1.5vw;
+border-radius: 50%;
+}
+.form-container { 
+    margin-bottom: 15px;
+}
+.form-container .error-text {
+    font-size: calc(clamp(0.625rem, 0.447vw + 0.338rem, 0.875rem));
+    padding-left: 15px;
+}
+.form-container label{
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    font-weight: 500;
+    color: #000;
+    padding-left: 1rem;
+}
+.form-container .suggestion-div {
+    margin-top: 10px;
+}
+.form-container input {
+    outline: none;
+    border: none;
+    padding: calc(clamp(0.75rem, 0.447vw + 0.463rem, 1rem)) calc(clamp(0.875rem, 0.447vw + 0.588rem, 1.125rem));
+    font-size: calc(clamp(0.75rem, 0.447vw + 0.463rem, 1rem));
+    width: 100%;
+    box-shadow: 0px 2px 6px 0 #13124221;
+    border-radius: 50px;
+}
+.form-container input::placeholder {
+    color: #6F6C90;
+}
+
+/* ---------------------------------------------------------------------- */
+.outercontianer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: "DM Sans", serif;
+}
+.form-outer-div h2{
+    font-size: calc(clamp(1rem, 0.895vw + 0.426rem, 1.5rem));
+    font-weight: 600;
+}
+.form-outer-div .form-subtitle {
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+}
+.outercontianer  .JD-division {
+    width: 60%;
+    margin-bottom: 40px;
+}
+.side-controls {
+    position: absolute;
+    right: 16%;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+}
+.side-controls ul li svg{
+width: 28px;
+height: 28px;
+
+}
+.side-controls ul li.active-btn {
+    background-color: #0066FF;
+}
+.side-controls ul li.active-btn svg {
+    color: #fff;
+}
+.side-controls ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.side-controls ul li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.15);
+    outline: 3px solid #ffffff5c;
+}
+.JD-title h3{
+    text-align: center;
+    font-size: calc(clamp(1.125rem, 0.671vw + 0.695rem, 1.5rem));
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.JD-title p {
+    text-align: center;
+    color: #6F6C90;
+    font-weight: 400;
+    font-size: calc(clamp(0.875rem, 0.671vw + 0.445rem, 1.25rem));
+
+}
+.suggestion-span {
+    font-size: calc(clamp(0.75rem, 0.224vw + 0.607rem, 0.875rem));
+}
+.JD-outer-frame p {
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    font-weight: 500;
+    color: #000;
+}
+.sumary-template {
+    width: 100%;
+    display: flex;
+    padding: 0 15px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.sumary-template div {
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.sumary-template div svg {
+    width: calc(clamp(0.938rem, 0.559vw + 0.579rem, 1.25rem));
+    height: calc(clamp(0.938rem, 0.559vw + 0.579rem, 1.25rem));
+    color: #000;
+}
+.JD-container {
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+
+} 
+.JD-container .text-container {
+    color: #0066FF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.JD-container .description-JD {
+    font-size: 18px;
+    color: #000;
+}
+.suggestion-checkbox {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-checkbox .checkbox-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.suggestion-checkbox .checkbox-div input{
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+
+}
+.suggestion-checkbox .checkbox-div input:checked ~ .customize-checkbox {
+    background: linear-gradient(90deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);;
+}
+.suggestion-checkbox .checkbox-div .customize-checkbox {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #afafaf96;
+} 
+.suggestion-checkbox .checkbox-div .customize-checkbox::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.suggestion-checkbox .checkbox-div .text-input{
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    font-weight: 500;
+    color: #000;
+}
+.suggestion-checkbox .suggestion {
+    display: flex;
+    gap: 10px;
+}
+.suggestion-checkbox .suggestion span {
+    padding: 8px 15px;
+    font-size: calc(clamp(0.625rem, 0.447vw + 0.338rem, 0.875rem));
+    border-radius: 50px;
+    color: #fff;
+    background-color: #007FFF;
+}
+.form-submit-btn {
+    font-size: calc(clamp(0.875rem, 0.895vw + 0.301rem, 1.375rem));
+    font-weight: 700;
+    color: #fff;
+    padding: 8px 25px;
+    border: 0.5px solid #fff;
+    box-shadow: 0px 3px 12px 0 #4a3aff42;
+    background: linear-gradient(90deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);
+}
+.JD-btn { 
+    
+    display: flex;
+    justify-content: center;
+}
+.JD-btn button {
+    display: flex;
+    gap: 20px;
+    font-size: calc(clamp(0.938rem, 0.559vw + 0.579rem, 1.25rem));
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(250deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);
+
+}
+.JD-btn button svg {
+     color: #fff;
+     font-size: 30px;
+     width: 30px;
+     height: 30px;
+}
+
+
+
+
+@media (max-width: 1600px) {
+    .form-division {
+        width: 60%;
+    }
+}
+@media (max-width: 1400px){
+    .form-division {
+        width: 65%;
+    }
+}
+@media (max-width: 1280px){}
+@media (max-width: 1199px){}
+@media (max-width: 991px){}
+@media (max-width: 767px){}
+@media (max-width: 667px){}
+@media (max-width: 480px){}
+@media (max-width: 360px){}

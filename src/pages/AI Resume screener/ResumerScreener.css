@@ -1,0 +1,163 @@
+.Resume_sceener {
+    position: relative;
+    background-color: #ECE9FF;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.right-side-ellipse {
+    position: absolute;
+    width: 800px;
+    top: -19%;
+    right: -39%;
+    border-radius: 50%;
+    height: 800px;
+    background-color: #9000ff52;
+    filter: blur(500px);
+}
+.left-side-ellipse {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    /* opacity: 0; */
+    bottom: -30%;
+    border-radius: 50%;
+    filter: blur(418px);
+    left: -31%;
+    background-color: #006eff7c;
+}
+.bg-blur-container {
+    width: 96%;
+    background-color: #fff;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+.screener-container {
+    display: flex;
+    margin-bottom: 10vw;
+}
+.AI-sceener-img {
+    width: 50%;
+}
+.drag-drop-container {
+    width: 50%;
+    padding: 10px 60px 0 10px;
+}
+.screener-title h1 {
+    font-size: 72px;
+    font-weight: 400;
+    width: 75%;
+    padding-top: 50px;
+    line-height: 90px;
+    background-image: linear-gradient(90deg, #0095FF 0%, #A200CB 100%);
+    text-align: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    margin-bottom: 35px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.screener-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+.drag-drop-container .scanner-navbar ul{
+    display: flex;
+   gap: 10px;
+   justify-content: end;
+}
+.drag-drop-container .scanner-navbar ul li.active {
+    background: linear-gradient(90deg, #1F6EFF 0%, #995EFF 100%);
+    border-radius: 8px;
+    color: #fff;
+}
+.file-extension {
+    font-size: 20px;
+    color: #000000bb;
+}
+.drag-zone-title {
+    display: flex;
+    align-items: center;
+}
+.drag-zone-title img {
+    width: 100px;
+}
+.drag-zone-title h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.drag-zone-title p{
+    font-size: 20px;
+}
+.scanner-navbar {
+    padding: 15px 0;
+}
+.sceener-leftside {
+    width: 55%;
+    position: relative;
+}
+.drop-zone {
+    padding: 90px 12px;
+}
+.drag-drop-text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+.drag-drop-container .scanner-navbar ul li {
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.upload-resume-div {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+.scan-btn {
+    margin-top: 20px;
+}
+.scan-btn button {
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0 #0091ff4f;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: 1px solid #fff;
+    background: linear-gradient(90deg, #50B0FF 0%, #0059FF 100%);
+    color: #fff;
+}
+.progress-container {
+    background-color: #B6CEFF;
+
+}
+.progress-bar {
+    background: linear-gradient(90deg, #0059FF 0%, #885CFF 100%);
+}
+.pdf-icon {
+    width: 8%;
+}
+/* ----------------------------------------------------------------------------------JD Page ------------------------------------------------------------------- */
+
+.upload-JD-div {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+.upload-JD-div .switch-btn-active {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: linear-gradient(250deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);
+}
