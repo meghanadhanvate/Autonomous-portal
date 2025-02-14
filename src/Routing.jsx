@@ -9,7 +9,7 @@ import ProfileGen from "./pages/AI profile Generator/Profilegen";
 export default function Routing() {
     return(
             <Routes>
-                <Route element={<LoginPage />} path="/Autonomous-portal" />
+                <Route element={<LoginPage />} path="/Autonomous-portal/" />
                 <Route element={<Dashboard />} path="/dashboard" />
                 <Route element={<ProfileGen />} path="/profile-generator" />
                 <Route element={<AnimatedIcons />} path="/icondanimate" />
