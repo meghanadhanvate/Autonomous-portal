@@ -108,7 +108,7 @@ const Dashboard = () => {
        </div>
 
         <div className="grid grid-cols-4 gap-6 four-aspect-grid">
-         <Link to={"/profile-generator"}>
+         <Link to={"/Autonomous-portal/profile-generator"}>
          <div className="relative from-blue-50 to-purple-100 dashboard-grid-box active">
             <img src={JD_maker} alt="" />
             <div className="p-6">
