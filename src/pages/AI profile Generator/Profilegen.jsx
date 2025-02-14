@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Header from '../../Component/Common component/Header';
 import Footer from '../../Component/Common component/Footer';
 import './ProfileGenerator.css';
+import magic_ball from '../../assets/images/Resume-screener/magic-ball.gif'
+import animation_hiring from '../../assets/images/Resume-screener/animation-hiring.gif'
 import Navbar from '../../Component/Common component/Navbar';
 import CallToAction from '../../Component/Common component/CallToAction';
 
@@ -108,7 +110,7 @@ const ProfileGen = () => {
             placeholder: "Company name",
             inputType : "text",
             isSuggestion : false,
-            isrequired : true,
+            isrequired : false,
             error : ""
           },
           {
@@ -116,7 +118,7 @@ const ProfileGen = () => {
             placeholder: "Cultural Fit Factors",
             inputType : "text",
             isSuggestion : true,
-            isrequired : true,
+            isrequired : false,
             error : ""
           },
           {
@@ -327,9 +329,23 @@ const ProfileGen = () => {
                        <p className='location'>Location:  Remote | Hybrid</p>
                        <p className='employement'>Employment Type: Full-Time</p>
                      </div>
-                     <div className='description-JD'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos doloribus expedita non odio amet odit ab ea quidem? Nostrum, cumque ipsam! Molestiae ducimus libero voluptate recusandae modi? Aliquam quibusdam ad, illo ducimus totam possimus in ullam deleniti. Nisi, autem illum! Deserunt tenetur, vitae atque facilis cupiditate veritatis at ipsa aut?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa enim dolore quasi explicabo error, at id! Illum tempore sapiente quo.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rerum eos iusto, voluptatibus consequatur porro voluptates voluptate ab temporibus dignissimos mollitia quo ullam. Quod, quas quam neque, architecto, atque laudantium tempore rem excepturi autem aliquid nam nesciunt molestias totam suscipit.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, neque rerum. Minus fuga sequi laboriosam qui ad labore est ab nobis sed, porro aspernatur modi error facere dicta impedit explicabo obcaecati ea ratione nesciunt eius quod. Sequi dolorem omnis aut.
+                     <div className='description-JD'>
+                      <p>We are a forward-thinking organization dedicated to innovation, collaboration, and customer-centric design. Our culture thrives on creativity, empowering individuals, and fostering teamwork to build impactful digital experiences.</p>
+                      <p>Core Values: Integrity, Innovation, Collaboration, Customer Centricity, Inclusivity Personality Fit: Outgoing, Analytical, Team Player, Self-Starter</p>
+                      <p>As a UI Designer, you will play a crucial role in creating visually compelling interfaces for our next-gen SaaS platform. You will work closely with cross-functional teams to ensure design excellence and user engagement.</p>
+                      <h5>Project Scope:</h5>
+                      <ul>
+                        <li>Design and deliver engaging UI solutions for a next-gen SaaS platform enhancing user experience and digital transformation.</li>
+                      </ul>
+                      <h5>Team Insights:</h5>
+                      <ul>
+                        <li>Strong development and backend team, seeking creative input for design elevation.</li>
+                      </ul>
+                      <h5>Technology & Tools:</h5>
+                      <ul>
+                        <li>Design Tools: Figma, Adobe XD, Sketch</li>
+                        <li>Collaboration Tools: Slack, Asana, Trello</li>
+                      </ul>
                      </div>
                    </div>
                   <div className='suggestion-checkbox'>
@@ -356,8 +372,14 @@ const ProfileGen = () => {
       ): (
         <div className='completetd-section'>
             <div className="completetd-blur-div backdrop-blur-lg bg-white/30 border border-white/50 shadow-xl p-8">
+                <div className='Title'>
                 <h4>Magic Complete!</h4>
+                <img src={magic_ball} alt="" />
+                </div>
                 <p>Your AI-crafted JD is ready to share and attract top talent!</p>
+                <div className='animation-hiring'>
+                    <img src={animation_hiring} alt="" />
+                </div>
                 <div className="Completedt-btn">
                    <button>Hop on to Screener<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M15.808 0a10 10 0 0 0-7.142 3H6.75A2.75 2.75 0 0 0 4 5.75V8h2l2 2v2h2.25A2.75 2.75 0 0 0 13 9.25V7.334a10 10 0 0 0 3-7.142V0zM6.44 6.5a10 10 0 0 1 1.015-2H6.75c-.69 0-1.25.56-1.25 1.25v.75zm3.06 4v-.94a10 10 0 0 0 2-1.015v.705c0 .69-.56 1.25-1.25 1.25zm4.88-8.88a8.5 8.5 0 0 0-6.71 5.928l.782.783a8.5 8.5 0 0 0 5.928-6.71Zm-11.6 8.66a.75.75 0 1 0-1.06-1.06l-1.5 1.5a.75.75 0 1 0 1.06 1.06zm3 1a.75.75 0 1 0-1.06-1.06l-4.5 4.5a.75.75 0 1 0 1.06 1.06zm1 1.94a.75.75 0 0 1 0 1.06l-1.5 1.5a.75.75 0 0 1-1.06-1.06l1.5-1.5a.75.75 0 0 1 1.06 0" clip-rule="evenodd"/></svg></button>
                   </div>

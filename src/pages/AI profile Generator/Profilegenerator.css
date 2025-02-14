@@ -169,9 +169,10 @@ height: 28px;
 }
 .JD-outer-frame p {
     font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
-    font-weight: 500;
+    font-weight: 400;
     color: #000;
 }
+
 .sumary-template {
     width: 100%;
     display: flex;
@@ -194,6 +195,8 @@ height: 28px;
     color: #000;
 }
 .JD-container {
+    max-height: 40vh;
+    overflow-y: scroll;
     background-color: #fff;
     padding: 20px 25px;
     border-radius: 16px;
@@ -201,12 +204,31 @@ height: 28px;
 
 } 
 .JD-container .text-container {
-    color: #0066FF;
+   
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px;
 }
+.JD-container .text-container p{
+    font-size: calc(clamp(0.75rem, 0.671vw + 0.32rem, 1.125rem));
+    font-weight: 500;
+    color: #0066FF;
+}
 .JD-container .description-JD {
+    font-size: 18px;
+    color: #000;
+}
+.description-JD p {
+    margin-bottom: 8px;
+}
+.description-JD h5 {
+    margin-bottom: 5px;
+}
+.description-JD ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+.description-JD ul li {
     font-size: 18px;
     color: #000;
 }
@@ -309,7 +331,6 @@ height: 28px;
     position: relative;
     width: 60%;
     border-radius: 20px;
-    height: 60vh;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -326,10 +347,20 @@ height: 28px;
     border-radius: 50%;
 
 }
+.completetd-section .Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.completetd-section .Title img {
+    width: 8%;
+}
+.completetd-section .animation-hiring img{
+width: 80%;
+position: relative;
+}
 .Completedt-btn { 
-    float: bottom;
-    position: absolute;
-    bottom: 5%;
+
     display: flex;
     justify-content: center;
 }

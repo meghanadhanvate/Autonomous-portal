@@ -196,6 +196,7 @@ const EnhancedResumeScreener = () => {
           onDragLeave={handleDragLeave}
           onDrop={handleDrop}
           className={`
+            drop-zone
             border-2 border-dashed rounded-lg p-8 mb-6
             flex flex-col items-center justify-center
             cursor-pointer transition-colors
@@ -212,10 +213,10 @@ const EnhancedResumeScreener = () => {
           />
           
           <Upload className="w-12 h-12 text-blue-500 mb-4" />
-          <p className="text-gray-700 text-center mb-2">
+          <p className="drag-drop-text text-gray-700 text-center mb-2">
             Select your file or drag and drop
           </p>
-          <p className="text-gray-500 text-sm">
+          <p className="file-extension text-gray-500 text-sm">
             png, pdf, jpg, docx accepted
           </p>
         </div>

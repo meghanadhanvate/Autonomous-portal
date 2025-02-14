@@ -322,10 +322,10 @@ const ProfileGen = () => {
                        <p className='location'>Location:  Remote | Hybrid</p>
                        <p className='employement'>Employment Type: Full-Time</p>
                      </div>
-                     <div className='description-JD'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos doloribus expedita non odio amet odit ab ea quidem? Nostrum, cumque ipsam! Molestiae ducimus libero voluptate recusandae modi? Aliquam quibusdam ad, illo ducimus totam possimus in ullam deleniti. Nisi, autem illum! Deserunt tenetur, vitae atque facilis cupiditate veritatis at ipsa aut?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa enim dolore quasi explicabo error, at id! Illum tempore sapiente quo.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam rerum eos iusto, voluptatibus consequatur porro voluptates voluptate ab temporibus dignissimos mollitia quo ullam. Quod, quas quam neque, architecto, atque laudantium tempore rem excepturi autem aliquid nam nesciunt molestias totam suscipit.
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, neque rerum. Minus fuga sequi laboriosam qui ad labore est ab nobis sed, porro aspernatur modi error facere dicta impedit explicabo obcaecati ea ratione nesciunt eius quod. Sequi dolorem omnis aut.
-                     </div>
+                     <div className='description-JD'>
+                     We are a forward-thinking organization dedicated to innovation, collaboration, and customer-centric design. Our culture thrives on creativity, empowering individuals, and fostering teamwork to build impactful digital experiences.<br />
+                     Core Values: Integrity, Innovation, Collaboration, Customer Centricity, InclusivityPersonality Fit: Outgoing, Analytical, Team Player, Self-Starter
+                        </div>
                    </div>
                   <div className='suggestion-checkbox'>
                   <div className='checkbox-div'><input type="checkbox" /><span className='customize-checkbox'></span><span className='text-input'>Quick Publish</span></div>

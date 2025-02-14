@@ -120,7 +120,7 @@ const Dashboard = () => {
               </p>
             </div>
           </div></Link>
-          <Link to={"/Autonomous-portal/ai-resume-sceener"}>
+          <Link to={"/Autonomous-portal/JD-Scanner"}>
           <div className="relative bg-white dashboard-grid-box">
             <img src={AI_application} alt="" />
             <div className="p-6">

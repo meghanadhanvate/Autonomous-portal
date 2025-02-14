@@ -11,7 +11,7 @@ export default function Header() {
 
     const navItems = [
         { path: "/Autonomous-portal/profile-generator", label: "Job Description" },
-        { path: "/Autonomous-portal/ai-resume-sceener", label: "Screening" },
+        { path: "/Autonomous-portal/JD-Scanner", label: "Screening" },
         { path: "/job-description", label: "Assessment" },
         { path: "/job-description", label: "Interview" }
     ];
