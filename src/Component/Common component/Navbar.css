@@ -1,11 +1,12 @@
 .navabr-container {
     position: fixed;
-    top: 0;
+    top: 1%;
     left: 0;
     width: 100%;
     z-index: 2;
     padding: 1.3rem 2rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .notify-search-user {

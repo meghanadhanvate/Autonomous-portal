@@ -6,6 +6,7 @@ import pdf_icon from '../../assets/images/Resume-screener/pdf-icon.png'
 import Header from '../../Component/Common component/Header';
 import Footer from '../../Component/Common component/Footer';
 import Navbar from '../../Component/Common component/Navbar';
+import { Link } from 'react-router-dom';
 import CallToAction from '../../Component/Common component/CallToAction';
 import sceening_animation from '../../assets/images/Resume-screener/sceening-animation.gif'
 import HeadingTextAnimation from '../../Component/Common component/headingTextAniamtion';
@@ -77,8 +78,8 @@ const IntelligentResumeScreener = () => {
 
   return (
     <div className="Resume_sceener">
-      <Header />
-      <Navbar />
+      <Header  />
+      <Navbar isHomeicon={true} />
        <Footer centerText={"Enabled by ESDS Software Solution Limited : Powering Innovation"} />
        <CallToAction innertext={"Talk to our expert"} />
      <div className="right-side-ellipse"></div>
@@ -96,7 +97,7 @@ const IntelligentResumeScreener = () => {
             <div className='drag-drop-container'>
               <div className="scanner-navbar">
                 <ul>
-                  <li>Job Description</li>
+                <Link to={"/Autonomous-portal/JD-Scanner"}><li className=''>Job Description</li></Link>
                   <li className='active'>Resume Scan</li>
                   <li>Analysis</li>
                   <li>Reports</li>

@@ -1,17 +1,36 @@
-import { Link } from "react-router-dom"
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+
 export default function Header() {
-    return(
+    const location = useLocation();
+    const [activeLink, setActiveLink] = useState(location.pathname);
+
+    useEffect(() => {
+        setActiveLink(location.pathname);
+    }, [location.pathname]);
+
+    const navItems = [
+        { path: "/Autonomous-portal/profile-generator", label: "Job Description" },
+        { path: "/Autonomous-portal/ai-resume-sceener", label: "Screening" },
+        { path: "/job-description", label: "Assessment" },
+        { path: "/job-description", label: "Interview" }
+    ];
+
+    return (
         <div className="top-line">
-            <div className="navbar-list">
-                
-            </div>
-            <ul>
             
-                <li><Link to={"/job-description"}>Job Description</Link></li>
-                <li><Link to={"/job-description"}>Screening</Link></li>
-                <li><Link to={"/job-description"}>Assessment</Link></li>
-                <li><Link to={"/job-description"}>Interview</Link></li>
+            <div className="navbar-list"></div>
+            <ul>
+                {navItems.map((item, index) => (
+                    <li
+                        key={index}
+                        className={`header-link ${activeLink === item.path ? "active" : ""}`}
+                        onClick={() => setActiveLink(item.path)}
+                    >
+                        <Link to={item.path}>{item.label}</Link>
+                    </li>
+                ))}
             </ul>
         </div>
-    )
+    );
 }

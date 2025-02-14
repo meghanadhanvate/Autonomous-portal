@@ -10,11 +10,11 @@ export default function Routing() {
     return(
             <Routes>
                 <Route element={< Dashboard />} path="/Autonomous-portal/" />
-                <Route element={<LoginPage />} path="/Autonomous-portal/dashboard" />
+                <Route element={<LoginPage />} path="/Autonomous-portal/Login" />
                 <Route element={<ProfileGen />} path="/Autonomous-portal/profile-generator" />
                 <Route element={<AnimatedIcons />} path="/Autonomous-portal/icondanimate" />
                 <Route element={<IntelligentResumeScreener />} path="/Autonomous-portal/ai-resume-sceener" />
-                <Route element={<EnhancedResumeScreener />} path="/Autonomous-portal/Enhanced-Resume-Screener" />
+                <Route element={<EnhancedResumeScreener />} path="/Autonomous-portal/JD-Scanner" />
             </Routes>
     )
 }

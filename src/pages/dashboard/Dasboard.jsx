@@ -120,7 +120,7 @@ const Dashboard = () => {
               </p>
             </div>
           </div></Link>
-
+          <Link to={"/Autonomous-portal/ai-resume-sceener"}>
           <div className="relative bg-white dashboard-grid-box">
             <img src={AI_application} alt="" />
             <div className="p-6">
@@ -132,6 +132,8 @@ const Dashboard = () => {
               </p>
             </div>
           </div>
+          </Link>
+       
 
           <div className="relative bg-white dashboard-grid-box">
             <img src={IA_screener} alt="" />

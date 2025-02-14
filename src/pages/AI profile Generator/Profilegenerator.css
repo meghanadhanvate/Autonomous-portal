@@ -298,9 +298,76 @@ height: 28px;
      width: 30px;
      height: 30px;
 }
+/* ------------------------------------------------------------------------------------------------------------ */
+.completetd-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
+.completetd-section .completetd-blur-div {
+    position: relative;
+    width: 60%;
+    border-radius: 20px;
+    height: 60vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.completetd-section .completetd-blur-div::before {
+    content: "";
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 40%;
+    background-color: #FFE263;
+    filter: blur(80px);
+    border-radius: 50%;
 
+}
+.Completedt-btn { 
+    float: bottom;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.Completedt-btn button {
+    display: flex;
+    gap: 20px;
+    font-size: calc(clamp(0.938rem, 0.559vw + 0.579rem, 1.25rem));
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(250deg, rgba(68,180,255,1) 0%, rgba(56,64,255,1) 100%);
 
+}
+.Completedt-btn button svg {
+     color: #fff;
+     font-size: 30px;
+     width: 30px;
+     height: 30px;
+}
+
+.completetd-section .completetd-blur-div h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-image: linear-gradient(80deg, #0077FF 0%, #645FFF 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.completetd-section .completetd-blur-div p {
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+}
 
 @media (max-width: 1600px) {
     .form-division {
